@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Piper Thunstrom -- Owner -- @pathunstrom
+
+# THANKS
+
+    HTML5 Boilerplate
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
