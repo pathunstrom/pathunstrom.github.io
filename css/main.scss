@@ -1,0 +1,137 @@
+$picton: #47BDE4;
+$pistachio: #8BC700;
+$purple: #4F07A5;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Quattrocento', serif;
+}
+
+body {
+  width: 100%;
+  color: darken($purple, 15%);
+  font-size: 16px;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: lighten($picton, 38%);
+}
+
+header {
+  background-color: $picton;
+  h1 {
+    color: $purple;
+    padding: 0.25em;
+  }
+  ul {
+    padding: 0;
+    li {
+      width: 25%;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      padding: 0.5em;
+    }
+  }
+}
+
+section {
+  padding: 0 0.75em 0.5em;
+  h1 {
+    padding: .25em 0 .5em;
+    font-size: 1.5em;
+    color: $pistachio;
+  }
+  p {
+    padding: 0.25em;
+    line-height: 1.5em;
+  }
+  a {
+    color: $purple;
+  }
+
+  a:visited {
+    color: darken($pistachio, 20%);
+  }
+}
+
+.project {
+  padding: 1em;
+  h2 {
+    padding: 0.25em 0;
+    font-size: 1.25em;
+  }
+
+  img {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  p {
+    padding-left: 15%;
+  }
+}
+
+footer {
+  background-color: $picton;
+  nav {
+    padding: 1em 0;
+    li {
+      display: inline-block;
+      border-left: 1px solid darken($picton, 20%);
+      padding: 0 0.5em;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.contact-button {
+  display: block;
+  text-align: center;
+  font: 1.25em 'Quattrocento', serif;
+  padding: 0.25em;
+  margin: 0 20%;
+  width: 60%;
+  background-color: $pistachio;
+  color: $purple;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.contact-button:visited {
+  color: $purple;
+}
+
+.social-media {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 16px;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  background-color: $pistachio;
+  margin: 0.25em;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section {
+    max-width: 70%;
+    margin: 0 15%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  body {
+    font-size: 28px;
+  }
+}
