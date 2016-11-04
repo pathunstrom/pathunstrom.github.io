@@ -27,7 +27,7 @@ header {
       padding: 0.5em; }
 
 section {
-  padding: 0 0.75em 0.5em; }
+  padding: 1em 0.75em; }
   section h1 {
     padding: .25em 0 .5em;
     font-size: 1.5em;
@@ -67,7 +67,7 @@ footer {
   text-align: center;
   font: 1.25em 'Quattrocento', serif;
   padding: 0.25em;
-  margin: 0 20%;
+  margin: 3% 20%;
   width: 60%;
   background-color: #8BC700;
   color: #4F07A5;
@@ -91,10 +91,10 @@ footer {
   body {
     font-size: 22px; } }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
   section {
-    max-width: 70%;
-    margin: 0 15%; } }
+    max-width: 750px;
+    margin: auto; } }
 
 @media screen and (min-width: 1900px) {
   body {
