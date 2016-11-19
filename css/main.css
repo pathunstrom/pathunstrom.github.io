@@ -7,15 +7,15 @@ h1, h2 {
 
 body {
   width: 100%;
-  color: #2c045c;
+  color: #1d002c;
   font-size: 16px;
   font-family: 'Merriweather Sans', sans-serif;
-  background-color: #f0fafd; }
+  background-color: white; }
 
 header {
-  background-color: #47BDE4; }
+  background-color: #ddccff; }
   header h1 {
-    color: #4F07A5;
+    color: #500078;
     padding: 0.25em; }
   header ul {
     padding: 0; }
@@ -31,14 +31,14 @@ section {
   section h1 {
     padding: .25em 0 .5em;
     font-size: 1.5em;
-    color: #8BC700; }
+    color: #500078; }
   section p {
     padding: 0.25em;
     line-height: 1.5em; }
   section a {
-    color: #4F07A5; }
+    color: #500078; }
   section a:visited {
-    color: #446100; }
+    color: #2b333c; }
 
 .project {
   padding: 1em; }
@@ -52,12 +52,12 @@ section {
     padding-left: 15%; }
 
 footer {
-  background-color: #47BDE4; }
+  background-color: #ddccff; }
   footer nav {
     padding: 1em 0; }
     footer nav li {
       display: inline-block;
-      border-left: 1px solid #1987ac;
+      border-left: 1px solid #9966ff;
       padding: 0 0.5em; }
     footer nav a {
       text-decoration: none; }
@@ -69,13 +69,13 @@ footer {
   padding: 0.25em;
   margin: 3% 20%;
   width: 60%;
-  background-color: #8BC700;
-  color: #4F07A5;
+  background-color: #556677;
+  color: #500078;
   text-decoration: none;
   border-radius: 2px; }
 
 .contact-button:visited {
-  color: #4F07A5; }
+  color: #500078; }
 
 .social-media {
   display: inline-block;
@@ -84,7 +84,7 @@ footer {
   height: 64px;
   width: 64px;
   border-radius: 50%;
-  background-color: #8BC700;
+  background-color: #556677;
   margin: 0.25em; }
 
 @media screen and (min-width: 500px) {

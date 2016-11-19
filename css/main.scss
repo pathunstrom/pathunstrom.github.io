@@ -1,6 +1,6 @@
-$picton: #47BDE4;
-$pistachio: #8BC700;
-$purple: #4F07A5;
+$background: #ddccff;
+$impact: #556677;
+$title: #500078;
 
 * {
   box-sizing: border-box;
@@ -13,16 +13,16 @@ h1, h2 {
 
 body {
   width: 100%;
-  color: darken($purple, 15%);
+  color: darken($title, 15%);
   font-size: 16px;
   font-family: 'Merriweather Sans', sans-serif;
-  background-color: lighten($picton, 38%);
+  background-color: lighten($background, 38%);
 }
 
 header {
-  background-color: $picton;
+  background-color: $background;
   h1 {
-    color: $purple;
+    color: $title;
     padding: 0.25em;
   }
   ul {
@@ -42,18 +42,18 @@ section {
   h1 {
     padding: .25em 0 .5em;
     font-size: 1.5em;
-    color: $pistachio;
+    color: $title;
   }
   p {
     padding: 0.25em;
     line-height: 1.5em;
   }
   a {
-    color: $purple;
+    color: $title;
   }
 
   a:visited {
-    color: darken($pistachio, 20%);
+    color: darken($impact, 20%);
   }
 }
 
@@ -75,12 +75,12 @@ section {
 }
 
 footer {
-  background-color: $picton;
+  background-color: $background;
   nav {
     padding: 1em 0;
     li {
       display: inline-block;
-      border-left: 1px solid darken($picton, 20%);
+      border-left: 1px solid darken($background, 20%);
       padding: 0 0.5em;
     }
     a {
@@ -96,14 +96,14 @@ footer {
   padding: 0.25em;
   margin: 3% 20%;
   width: 60%;
-  background-color: $pistachio;
-  color: $purple;
+  background-color: $impact;
+  color: $title;
   text-decoration: none;
   border-radius: 2px;
 }
 
 .contact-button:visited {
-  color: $purple;
+  color: $title;
 }
 
 .social-media {
@@ -113,7 +113,7 @@ footer {
   height: 64px;
   width: 64px;
   border-radius: 50%;
-  background-color: $pistachio;
+  background-color: $impact;
   margin: 0.25em;
 }
 
