@@ -1,5 +1,5 @@
 $background: #ddccff;
-$impact: #556677;
+$body: #556677;
 $title: #500078;
 
 * {
@@ -13,7 +13,7 @@ h1, h2 {
 
 body {
   width: 100%;
-  color: darken($title, 15%);
+  color: darken($body, 20%);
   font-size: 16px;
   font-family: 'Merriweather Sans', sans-serif;
   background-color: lighten($background, 38%);
@@ -53,7 +53,7 @@ section {
   }
 
   a:visited {
-    color: darken($impact, 20%);
+    color: darken($body, 20%);
   }
 }
 
@@ -84,6 +84,7 @@ footer {
       padding: 0 0.5em;
     }
     a {
+      color: $title;
       text-decoration: none;
     }
   }
@@ -96,7 +97,7 @@ footer {
   padding: 0.25em;
   margin: 3% 20%;
   width: 60%;
-  background-color: $impact;
+  background-color: $background;
   color: $title;
   text-decoration: none;
   border-radius: 2px;
@@ -113,7 +114,7 @@ footer {
   height: 64px;
   width: 64px;
   border-radius: 50%;
-  background-color: $impact;
+  background-color: $background;
   margin: 0.25em;
 }
 
