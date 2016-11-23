@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/pathunstrom
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.pathunstrom.com
+  * I am pathunstrom (https://keybase.io/pathunstrom) on keybase.
+  * I have a public key with fingerprint 8FF9 3F4E C447 55EC 4658  BDCC A57E A7A4 86D2 644F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012fb574d01c2910d36afaafc8d1a2974bb4f91c98c92dee9e9984d98dd9509f050a",
+            "fingerprint": "8ff93f4ec44755ec4658bdcca57ea7a486d2644f",
+            "host": "keybase.io",
+            "key_id": "a57ea7a486d2644f",
+            "kid": "01012fb574d01c2910d36afaafc8d1a2974bb4f91c98c92dee9e9984d98dd9509f050a",
+            "uid": "97503452e69fc1ea241c00ad06e4b119",
+            "username": "pathunstrom"
+        },
+        "service": {
+            "hostname": "www.pathunstrom.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1479862020,
+    "expire_in": 157680000,
+    "prev": "60dc747843db8b30bebbd6badbf8fda1ce07e597b3e63a43d48e7296ac6ac552",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJdSBVBFMev2ZeCUt1CqB5qCyy8yOze2Y+5aR8iRGH1UImCcZ2vva7m
+3e3uetVKCIV66sPq9tBDZD4IpZRRVgSWJhJmkZkQhvmWUI9iiJg2KwU99NgwcJiZ
+3/8/5xzOQFZ6IDPNoc9KsjeXd6S96WurC5TBqeVnJGKzRilyRqrhS4GfZNz1ojUW
+kyISkIGsmETVIQMyVZAMWFjDJsYmNZiMFaRDQqCJZIoMihTGOeIIGZAhgzGkAmQC
+FWApJJlWPMYTTsKKe8LWME0UNiGnEOqqKoKmGoRRilWdYx1DQ2OKBqEphFW26ytE
+cgS7PN+yxZ04RJfS+wf/n/OuW7JDugrCUFW4hkwqc6xAmQKAGdA4JLKMfNDliTiu
+5YJ2sFdVF3e9hF0rNYUk8ZC0KPd76xfzG6qvr8//C8ynAg5JTsL2bGqfFECV5zkR
+X+81OksCTqK/raLEijPRUCFI8oRr2XEpIguSepbvLUMdGZoCFBCSeINjJXjU8glV
+1wwglv8NTwpLDTCqQ92AYUYMEgaEE8I0ghkxDZNhmXKgcxXpJMy1MBYUNLiuIA1T
+sVVVkfziTsVt4a2LPHFMeLpWLI69ugSXmvpfViwPpGUGVq5Y5k9aIDNjzZ/5Gy9c
+tXgYk7zxiwXB4oIXuQuPhodmWhbXHWjaeLW59dtYqDkVlX9Ee5JXdjQ0BvcfTN2X
+g8mu0V3XPmW434OvtYJgqn2P9b56unIh3XtXmvVF/3n9RN69QHZD7/i9ucK1q91I
+5EbgQucYvbR927H6gaKybV19MxXdxd3rn39oLbzrpForj1aDyVOD82TQzTnfWfp1
+w8S3vGkt9ninM5T1aFNJ79aHLZMTxSPj126NjB6dWnt88jRgOUfmi6z2zt7dxy9X
+jnUdu/Oq5tChqxmz3UMPzu3rz+6Zm9369ObljvIteyfC09dTb/ewntnR4X0WiPW0
+fDzw5ELb8MXSysWSz7fniprP5v4Cq8xIRQ==
+=C/Ka
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pathunstrom
+
+==================================================================
